@@ -1,0 +1,17 @@
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Service.deps.json
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Service.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Service.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Data.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Infrastracture.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Data.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\bin\Debug\net8.0\School_Infrastracture.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.csproj.AssemblyReference.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.AssemblyInfoInputs.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.AssemblyInfo.cs
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.csproj.CoreCompileInputs.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_S.BFD86A89.Up2Date
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\refint\School_Service.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\ref\School_Service.dll

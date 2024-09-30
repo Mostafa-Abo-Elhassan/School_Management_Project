@@ -1,0 +1,17 @@
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\bin\Debug\net8.0\School_Infrastracture.deps.json
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\bin\Debug\net8.0\School_Infrastracture.runtimeconfig.json
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\bin\Debug\net8.0\School_Infrastracture.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\bin\Debug\net8.0\School_Infrastracture.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\bin\Debug\net8.0\School_Data.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\bin\Debug\net8.0\School_Data.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.csproj.AssemblyReference.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.AssemblyInfoInputs.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.AssemblyInfo.cs
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_I.829F8FC2.Up2Date
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\refint\School_Infrastracture.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.pdb
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.genruntimeconfig.cache
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\ref\School_Infrastracture.dll
