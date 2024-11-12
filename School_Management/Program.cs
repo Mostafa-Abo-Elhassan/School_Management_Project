@@ -1,6 +1,10 @@
 
 using Microsoft.EntityFrameworkCore;
+using School_Infrastracture;
+using School_Infrastracture.Abstract;
 using School_Infrastracture.Data;
+using School_Infrastracture.Repository;
+using School_Service;
 
 namespace School_Management
 {
@@ -19,7 +23,19 @@ namespace School_Management
 
             builder.Services.AddDbContext<ApplicationDBContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("dbcontextclean")));
+
+            #region Registers
+
+            builder.Services.AddInfrastractureDependencess()
+                .AddServiceDependencess();
+
+            #endregion
+
+
+
+
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

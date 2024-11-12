@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A64C4DA-B874-4459-8393-5BA7FE1BA04C}|School_Service\\School_Service.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school_service\\repository\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A64C4DA-B874-4459-8393-5BA7FE1BA04C}|School_Service\\School_Service.csproj|solutionrelative:school_service\\repository\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Service\\Repository\\StudentService.cs",
+              "RelativeDocumentMoniker": "School_Service\\Repository\\StudentService.cs",
+              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Service\\Repository\\StudentService.cs",
+              "RelativeToolTip": "School_Service\\Repository\\StudentService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAC4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T23:34:13.244Z",
+              "EditorCaption": ""
             }
           ]
         }

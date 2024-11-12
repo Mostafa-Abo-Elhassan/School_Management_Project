@@ -17,3 +17,4 @@ C:\Users\workstation\source\repos\School_Management_Project\School__Core\obj\Deb
 C:\Users\workstation\source\repos\School_Management_Project\School__Core\obj\Debug\net8.0\refint\School__Core.dll
 C:\Users\workstation\source\repos\School_Management_Project\School__Core\obj\Debug\net8.0\School__Core.pdb
 C:\Users\workstation\source\repos\School_Management_Project\School__Core\obj\Debug\net8.0\ref\School__Core.dll
+C:\Users\workstation\source\repos\School_Management_Project\School__Core\obj\Debug\net8.0\School__Core.sourcelink.json

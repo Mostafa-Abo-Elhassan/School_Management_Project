@@ -15,3 +15,4 @@ C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\D
 C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\refint\School_Service.dll
 C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.pdb
 C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\ref\School_Service.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Service\obj\Debug\net8.0\School_Service.sourcelink.json

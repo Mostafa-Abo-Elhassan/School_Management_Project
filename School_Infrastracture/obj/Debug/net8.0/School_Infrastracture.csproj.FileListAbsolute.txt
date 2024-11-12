@@ -15,3 +15,4 @@ C:\Users\workstation\source\repos\School_Management_Project\School_Infrastractur
 C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.pdb
 C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.genruntimeconfig.cache
 C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\ref\School_Infrastracture.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Infrastracture\obj\Debug\net8.0\School_Infrastracture.sourcelink.json

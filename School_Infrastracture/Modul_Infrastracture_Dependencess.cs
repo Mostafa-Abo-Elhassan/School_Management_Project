@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using School_Infrastracture.Abstract;
+using School_Infrastracture.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +9,15 @@ using System.Threading.Tasks;
 
 namespace School_Infrastracture
 {
-    internal class Modul_Infrastracture_Dependencess
+    public static class Modul_Infrastracture_Dependencess
     {
+        public static IServiceCollection AddInfrastractureDependencess(this IServiceCollection services)
+        {
+
+            services.AddTransient<IStudentRepo, StudentRepo>();
+            return services;
+
+
+        }
     }
 }
