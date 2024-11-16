@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using School__Core;
 using School_Infrastracture;
 using School_Infrastracture.Abstract;
 using School_Infrastracture.Data;
@@ -24,10 +25,17 @@ namespace School_Management
             builder.Services.AddDbContext<ApplicationDBContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("dbcontextclean")));
 
+
+
             #region Registers
 
+
+
             builder.Services.AddInfrastractureDependencess()
-                .AddServiceDependencess();
+                            .AddServiceDependencess()
+                            .AddCoreDependencess();
+
+
 
             #endregion
 

@@ -18,8 +18,4 @@
     <ProjectReference Include="..\School__Core\School__Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
