@@ -34,7 +34,7 @@ namespace School_Infrastracture.Repository
 
         public async Task<List<Student>> GetStudentsAsync()
         {
-            return await _dBContext.Students.ToListAsync();
+            return await _dBContext.Students.Include(src=>src.Department).ToListAsync();
         }
 
         #endregion

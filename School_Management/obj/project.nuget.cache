@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "39weYsZoVuM=",
+  "dgSpecHash": "jZ2NIF6D01M=",
   "success": true,
   "projectFilePath": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\School_Management.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\workstation\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\workstation\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\workstation\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\workstation\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

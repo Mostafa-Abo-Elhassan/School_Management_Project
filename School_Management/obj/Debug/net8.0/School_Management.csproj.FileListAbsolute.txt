@@ -145,3 +145,4 @@ C:\Users\workstation\source\repos\School_Management_Project\School_Management\bi
 C:\Users\workstation\source\repos\School_Management_Project\School_Management\obj\Debug\net8.0\School_Management.sourcelink.json
 C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\MediatR.dll
 C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\AutoMapper.dll
