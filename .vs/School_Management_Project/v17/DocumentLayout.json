@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\mapping\\studentmap\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\mapping\\studentmap\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDF40F6A-B5F8-4542-ADF8-0FEFF172C63D}|School_Data\\School_Data.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school_data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF40F6A-B5F8-4542-ADF8-0FEFF172C63D}|School_Data\\School_Data.csproj|solutionrelative:school_data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\mapping\\studentmap\\queriesmapping\\getstudentlistmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\mapping\\studentmap\\queriesmapping\\getstudentlistmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|solutionrelative:school_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\features\\students\\queries\\models\\getstudentlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\features\\students\\queries\\models\\getstudentlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\features\\students\\queries\\handlers\\studenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\features\\students\\queries\\handlers\\studenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\features\\students\\queries\\response\\getstudentlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\features\\students\\queries\\response\\getstudentlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\features\\students\\queries\\models\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\features\\students\\queries\\models\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Data\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "School_Data\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Data\\Entities\\Student.cs",
+              "RelativeToolTip": "School_Data\\Entities\\Student.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:32:10.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetStudentByIDQuery.cs",
+              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Models\\GetStudentByIDQuery.cs",
+              "RelativeDocumentMoniker": "School__Core\\Features\\Students\\Queries\\Models\\GetStudentByIDQuery.cs",
+              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Models\\GetStudentByIDQuery.cs",
+              "RelativeToolTip": "School__Core\\Features\\Students\\Queries\\Models\\GetStudentByIDQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAEwBEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:29:36.07Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentProfile.cs",
-              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Mapping\\StudentMap\\StudentProfile.cs",
-              "RelativeDocumentMoniker": "School__Core\\Mapping\\StudentMap\\StudentProfile.cs",
-              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Mapping\\StudentMap\\StudentProfile.cs",
-              "RelativeToolTip": "School__Core\\Mapping\\StudentMap\\StudentProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:53:55.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetStudentListMapping.cs",
-              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Mapping\\StudentMap\\QueriesMapping\\GetStudentListMapping.cs",
-              "RelativeDocumentMoniker": "School__Core\\Mapping\\StudentMap\\QueriesMapping\\GetStudentListMapping.cs",
-              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Mapping\\StudentMap\\QueriesMapping\\GetStudentListMapping.cs",
-              "RelativeToolTip": "School__Core\\Mapping\\StudentMap\\QueriesMapping\\GetStudentListMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "School_Management\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "School_Management\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:53:08.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetStudentListResponse.cs",
-              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Response\\GetStudentListResponse.cs",
-              "RelativeDocumentMoniker": "School__Core\\Features\\Students\\Queries\\Response\\GetStudentListResponse.cs",
-              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Response\\GetStudentListResponse.cs",
-              "RelativeToolTip": "School__Core\\Features\\Students\\Queries\\Response\\GetStudentListResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:06:49.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentHandler.cs",
-              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
-              "RelativeDocumentMoniker": "School__Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
-              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
-              "RelativeToolTip": "School__Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAmwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:04:44.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetStudentListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Models\\GetStudentListQuery.cs",
-              "RelativeDocumentMoniker": "School__Core\\Features\\Students\\Queries\\Models\\GetStudentListQuery.cs",
-              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Models\\GetStudentListQuery.cs",
-              "RelativeToolTip": "School__Core\\Features\\Students\\Queries\\Models\\GetStudentListQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:04:16.206Z",
+              "WhenOpened": "2024-11-28T17:28:25.899Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,5 @@
-﻿using School_Data.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using School_Data.Entities;
 using School_Infrastracture.Abstract;
 using School_Infrastracture.Data;
 using School_Service.Abstract;
@@ -17,7 +18,7 @@ namespace School_Service.Repository
         #region Fields
 
       
-        private readonly IStudentRepo studentRepo;
+        private readonly IStudentRepo _studentRepo;
 
         #endregion
 
@@ -27,9 +28,10 @@ namespace School_Service.Repository
         public StudentService(IStudentRepo  studentRepo)
         {
            
-            this.studentRepo = studentRepo;
+            _studentRepo = studentRepo;
         }
 
+     
         #endregion
 
 
@@ -38,7 +40,17 @@ namespace School_Service.Repository
 
         public async Task<List<Student>> GetStudentsAsync()
         {
-            return await studentRepo.GetStudentsAsync();
+            return await _studentRepo.GetStudentsAsync();
+        }
+        public async Task<Student> GetByIDAsync(int id)
+        {
+            var student = await _studentRepo.GetTableNoTracking().Include(x => x.Department).Where(x => x.StudID.Equals(id)).FirstOrDefaultAsync();
+            //
+            //GetTableNoTracking()
+            //                              .Include(x => x.Department)
+            //                              .Where(x => x.StudID.Equals(id))
+            //                              .FirstOrDefault();
+            return student;
         }
 
 

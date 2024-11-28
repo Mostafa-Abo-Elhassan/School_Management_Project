@@ -10,7 +10,7 @@ namespace School_Service.Abstract
     public interface IStudentService
     {
         public Task<List<Student>> GetStudentsAsync();
-
+        public Task<Student> GetByIDAsync(int id);
 
     }
 }

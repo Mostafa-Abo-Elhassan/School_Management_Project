@@ -9,3 +9,4 @@ C:\Users\workstation\source\repos\School_Management_Project\School_Data\obj\Debu
 C:\Users\workstation\source\repos\School_Management_Project\School_Data\obj\Debug\net8.0\refint\School_Data.dll
 C:\Users\workstation\source\repos\School_Management_Project\School_Data\obj\Debug\net8.0\School_Data.pdb
 C:\Users\workstation\source\repos\School_Management_Project\School_Data\obj\Debug\net8.0\ref\School_Data.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Data\obj\Debug\net8.0\School_Data.sourcelink.json

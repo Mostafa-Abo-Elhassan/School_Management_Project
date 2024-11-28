@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using School_Infrastracture.Abstract;
+using School_Infrastracture.Infrastracture_Bases;
 using School_Infrastracture.Repository;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,9 @@ namespace School_Infrastracture
         {
 
             services.AddTransient<IStudentRepo, StudentRepo>();
+            services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
+
+
             return services;
 
 
