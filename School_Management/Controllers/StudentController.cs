@@ -1,11 +1,13 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using School__Core.Features.Students.Queries.Models;
+using School_Data.Routing;
 
 namespace School_Management.Controllers
 {
-    [Route("api/[controller]")]
+   
     [ApiController]
     public class StudentController : ControllerBase
     {
@@ -15,14 +17,14 @@ namespace School_Management.Controllers
         {
             _mediator = mediator;
         }
-        [HttpGet("/Student/List")]
+        [HttpGet(Routing.StudentRoute.List)]
         public async Task< IActionResult> GetStudentList()
         {
             var response = await _mediator.Send(new GetStudentListQuery());
             return Ok(response);
         }
-        [HttpGet("/Student/{id}")]
-        public async Task<IActionResult> GetStudenByID([FromRoute] int id )
+        [HttpGet(Routing.StudentRoute.GetByID)]
+        public async Task<IActionResult> GetStudenByID( int id )
         {
             var response = await _mediator.Send(new GetStudentByIDQuery() { Id=id});
             return Ok(response);
