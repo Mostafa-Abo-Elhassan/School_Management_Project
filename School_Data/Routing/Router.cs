@@ -17,7 +17,7 @@ namespace School_Data.Routing
             public const string previx =Rule+ "Student";
             public const string List = previx+"/List";
             public const string GetByID = previx + "/id";
-
+            public const string Create = previx + "/Create";
         }
 
 

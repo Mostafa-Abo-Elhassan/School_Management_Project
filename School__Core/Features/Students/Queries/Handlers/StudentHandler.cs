@@ -19,11 +19,11 @@ namespace School__Core.Features.Students.Queries.Handlers
     public class StudentHandler : ResponseHandler, IRequestHandler<GetStudentListQuery, Response<List<GetStudentListResponse>>>
                                                  , IRequestHandler<GetStudentByIDQuery, Response<GetStudentByIDResponse>>
     {
-        private readonly IStudentService _studentService;
-        private readonly IMapper _mapper;
 
         #region Fields
 
+        private readonly IStudentService _studentService;
+        private readonly IMapper _mapper;
 
 
         #endregion

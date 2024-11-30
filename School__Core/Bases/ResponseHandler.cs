@@ -54,15 +54,15 @@ namespace SchoolProject.Core.Bases
             };
         }
 
-        //public Response<T> UnprocessableEntity<T>(string Message = null)
-        //{
-        //    return new Response<T>()
-        //    {
-        //        StatusCode = System.Net.HttpStatusCode.UnprocessableEntity,
-        //        Succeeded = false,
-        //        Message = Message == null ? _stringLocalizer[SharedResourcesKeys.UnprocessableEntity] : Message
-        //    };
-        //}
+        public Response<T> UnprocessableEntity<T>(string Message = null)
+        {
+            return new Response<T>()
+            {
+                StatusCode = System.Net.HttpStatusCode.UnprocessableEntity,
+                Succeeded = false,
+                Message = Message == null ? "Unprocessable Entity" : Message
+            };
+        }
 
 
         public Response<T> NotFound<T>(string message = null)

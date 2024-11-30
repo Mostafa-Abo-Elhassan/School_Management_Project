@@ -53,6 +53,16 @@ namespace School_Service.Repository
             return student;
         }
 
+        public async Task<string> AddAsync(Student student)
+        {
+        //    var studentExist = await _studentRepo.GetTableNoTracking().Where(x => x.Name.Equals(student.Name)).FirstOrDefaultAsync();
+        //    if (studentExist!=null)  return "this student is an exist ";
+            
+           
+            await _studentRepo.AddAsync(student);
+            return "Success";
+        }
+
 
         #endregion
 
