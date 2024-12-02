@@ -5,36 +5,30 @@ using Microsoft.AspNetCore.Mvc;
 using School__Core.Features.Students.Commands.Models;
 using School__Core.Features.Students.Queries.Models;
 using School_Data.Routing;
+using School_Management.Base;
 
 namespace School_Management.Controllers
 {
    
     [ApiController]
-    public class StudentController : ControllerBase
+    public class StudentController : AppControllerBase
     {
-        private readonly IMediator _mediator;
-
-        public StudentController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
+        
         [HttpGet(Routing.StudentRoute.List)]
         public async Task< IActionResult> GetStudentList()
         {
-            var response = await _mediator.Send(new GetStudentListQuery());
+            var response = await Mediator.Send(new GetStudentListQuery());
             return Ok(response);
         }
         [HttpGet(Routing.StudentRoute.GetByID)]
         public async Task<IActionResult> GetStudenByID( int id )
         {
-            var response = await _mediator.Send(new GetStudentByIDQuery() { Id=id});
-            return Ok(response);
+            return NewResult(await Mediator.Send(new GetStudentByIDQuery() { Id = id }));
         }
         [HttpPost(Routing.StudentRoute.Create)]
         public async Task<IActionResult> CreateStudent( AddStudentCommand addStudent)
         {
-            var response = await _mediator.Send(addStudent);
-            return Ok(response);
+            return NewResult(await Mediator.Send(addStudent));
         }
     }
 }
