@@ -923,7 +923,10 @@
       },
       "School_Data/1.0.0": {
         "runtime": {
-          "School_Data.dll": {}
+          "School_Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace School_Data.Routing
+﻿namespace School_Data.Routing
 {
     public static class Routing
     {
@@ -14,10 +8,13 @@ namespace School_Data.Routing
 
         public static class StudentRoute
         {
-            public const string previx =Rule+ "Student";
-            public const string List = previx+"/List";
+            public const string previx = Rule + "Student";
+            public const string List = previx + "/List";
             public const string GetByID = previx + "/id";
             public const string Create = previx + "/Create";
+            public const string Update = previx + "/Update";
+            public const string Delete = previx + "/Delete";
+            public const string paginatedlist = previx + "/paginatedlist";
         }
 
 

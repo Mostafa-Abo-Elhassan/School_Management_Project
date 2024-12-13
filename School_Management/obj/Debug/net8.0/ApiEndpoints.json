@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "School_Management.Controllers.StudentController",
+    "Method": "CreateStudent",
+    "RelativePath": "api/Student/Api/V1/Student/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addStudent",
+        "Type": "School__Core.Features.Students.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Management.Controllers.StudentController",
+    "Method": "RemoveStudent",
+    "RelativePath": "api/Student/Api/V1/Student/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Management.Controllers.StudentController",
+    "Method": "GetStudenByID",
+    "RelativePath": "api/Student/Api/V1/Student/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Management.Controllers.StudentController",
+    "Method": "GetStudentList",
+    "RelativePath": "api/Student/Api/V1/Student/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Management.Controllers.StudentController",
+    "Method": "GetStudentPaginatedList",
+    "RelativePath": "api/Student/Api/V1/Student/paginatedlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getStudentPaginated",
+        "Type": "School__Core.Features.Students.Queries.Models.GetStudentPaginatedListQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Management.Controllers.StudentController",
+    "Method": "EditStudent",
+    "RelativePath": "api/Student/Api/V1/Student/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EditStudent",
+        "Type": "School__Core.Features.Students.Commands.Models.EditStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

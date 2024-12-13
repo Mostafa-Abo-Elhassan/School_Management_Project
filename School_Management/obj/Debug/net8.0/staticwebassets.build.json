@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "7ILDawXKAbFxwlOuuUUu9Zorz5xz9gI8Bvs/ExSGf7U=",
+  "Hash": "lSbNynzia86fLpQhP+nM6n6YvIC/Lu1Trlw2mwul9kQ=",
   "Source": "School_Management",
   "BasePath": "_content/School_Management",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

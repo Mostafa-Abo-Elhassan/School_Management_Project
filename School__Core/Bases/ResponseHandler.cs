@@ -1,18 +1,13 @@
 ﻿using School__Core.Bases;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolProject.Core.Bases
 {
     public class ResponseHandler
     {
-       
+
         public ResponseHandler()
         {
-            
+
         }
         public Response<T> Deleted<T>(string Message = null)
         {
@@ -30,7 +25,7 @@ namespace SchoolProject.Core.Bases
                 Data = entity,
                 StatusCode = System.Net.HttpStatusCode.OK,
                 Succeeded = true,
-                Message = "Added Successfully",
+                Message = "Successfully completed",
                 Meta = Meta
             };
         }
@@ -50,7 +45,7 @@ namespace SchoolProject.Core.Bases
             {
                 StatusCode = System.Net.HttpStatusCode.BadRequest,
                 Succeeded = false,
-                Message = Message == null ? "Bad Request": Message
+                Message = Message == null ? "Bad Request" : Message
             };
         }
 
@@ -71,7 +66,7 @@ namespace SchoolProject.Core.Bases
             {
                 StatusCode = System.Net.HttpStatusCode.NotFound,
                 Succeeded = false,
-                Message = message == null ? "Not Found": message
+                Message = message == null ? "Not Found" : message
 
             };
         }
@@ -83,7 +78,7 @@ namespace SchoolProject.Core.Bases
                 Data = entity,
                 StatusCode = System.Net.HttpStatusCode.Created,
                 Succeeded = true,
-                Message = "Not Data",
+                Message = "Created Successfully",
                 Meta = Meta
             };
         }

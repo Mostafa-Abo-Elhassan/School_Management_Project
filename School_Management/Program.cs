@@ -1,10 +1,9 @@
 
 using Microsoft.EntityFrameworkCore;
 using School__Core;
+using School__Core.MiddleWare;
 using School_Infrastracture;
-using School_Infrastracture.Abstract;
 using School_Infrastracture.Data;
-using School_Infrastracture.Repository;
 using School_Service;
 
 namespace School_Management
@@ -51,6 +50,10 @@ namespace School_Management
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseMiddleware<ErrorHandlerMiddleware>();
+            app.UseHttpsRedirection();
+
 
             app.UseAuthorization();
 

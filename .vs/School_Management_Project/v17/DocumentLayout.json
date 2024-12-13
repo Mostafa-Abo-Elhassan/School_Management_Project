@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|solutionrelative:school_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school__core\\features\\students\\queries\\models\\getstudentpaginatedlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5584F5D-B6B5-4EAE-B594-9D901FEC30BC}|School__Core\\School__Core.csproj|solutionrelative:school__core\\features\\students\\queries\\models\\getstudentpaginatedlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school_management\\base\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|solutionrelative:school_management\\base\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|c:\\users\\workstation\\source\\repos\\school_management_project\\school_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9797EC12-304B-482E-A6A5-6A6D53DC19C6}|School_Management\\School_Management.csproj|solutionrelative:school_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetStudentPaginatedListQuery.cs",
+              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Models\\GetStudentPaginatedListQuery.cs",
+              "RelativeDocumentMoniker": "School__Core\\Features\\Students\\Queries\\Models\\GetStudentPaginatedListQuery.cs",
+              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School__Core\\Features\\Students\\Queries\\Models\\GetStudentPaginatedListQuery.cs",
+              "RelativeToolTip": "School__Core\\Features\\Students\\Queries\\Models\\GetStudentPaginatedListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:04:04.785Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "School_Management\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\Controllers\\StudentController.cs",
               "RelativeToolTip": "School_Management\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABgAAAAJAAAA",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBUAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T17:43:45.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppControllerBase.cs",
-              "DocumentMoniker": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\Base\\AppControllerBase.cs",
-              "RelativeDocumentMoniker": "School_Management\\Base\\AppControllerBase.cs",
-              "ToolTip": "C:\\Users\\workstation\\source\\repos\\School_Management_Project\\School_Management\\Base\\AppControllerBase.cs",
-              "RelativeToolTip": "School_Management\\Base\\AppControllerBase.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACAAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T17:42:26.41Z",
+              "WhenOpened": "2024-12-13T00:03:44.178Z",
               "EditorCaption": ""
             }
           ]

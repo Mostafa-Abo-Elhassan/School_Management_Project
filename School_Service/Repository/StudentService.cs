@@ -1,23 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using School_Data.Entities;
 using School_Infrastracture.Abstract;
-using School_Infrastracture.Data;
 using School_Service.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School_Service.Repository
 {
     public class StudentService : IStudentService
     {
-      
+
 
         #region Fields
 
-      
+
         private readonly IStudentRepo _studentRepo;
 
         #endregion
@@ -25,13 +19,13 @@ namespace School_Service.Repository
 
         #region constractors
 
-        public StudentService(IStudentRepo  studentRepo)
+        public StudentService(IStudentRepo studentRepo)
         {
-           
+
             _studentRepo = studentRepo;
         }
 
-     
+
         #endregion
 
 
@@ -55,13 +49,61 @@ namespace School_Service.Repository
 
         public async Task<string> AddAsync(Student student)
         {
-        //    var studentExist = await _studentRepo.GetTableNoTracking().Where(x => x.Name.Equals(student.Name)).FirstOrDefaultAsync();
-        //    if (studentExist!=null)  return "this student is an exist ";
-            
-           
-            await _studentRepo.AddAsync(student);
+            var studentExist = await _studentRepo.GetTableNoTracking().Where(x => x.Name.Equals(student.Name)).FirstOrDefaultAsync();
+            if (studentExist != null)
+            {
+                await _studentRepo.AddAsync(student);
+                return "Success";
+
+            }
+            else
+            {
+                return "Exist";
+            }
+
+        }
+
+        public async Task<string> EditAsync(Student student)
+        {
+            await _studentRepo.UpdateAsync(student);
             return "Success";
         }
+
+        public async Task<string> removeAsync(Student student)
+        {
+            var studentExist = await _studentRepo.GetTableNoTracking().Where(x => x.StudID.Equals(student.StudID)).FirstOrDefaultAsync();
+            if (studentExist != null)
+
+                await _studentRepo.DeleteAsync(student);
+            return "Success";
+
+
+
+
+        }
+
+        public IQueryable<Student> GetStudentsQuerable()
+        {
+            return _studentRepo.GetTableNoTracking().Include(x => x.Department).AsQueryable();
+        }
+
+        public IQueryable<Student> FilterStudentPaginatedQuerable(string search)
+        {
+            var querable = _studentRepo.GetTableNoTracking().Include(x => x.Department).AsQueryable();
+            if (search != null)
+            {
+                querable = querable.Where(x => x.Name.Contains(search) || x.Address.Contains(search));
+            }
+            return querable;
+        }
+
+        //public async Task<string> removeAsync(int id)
+        //{
+        //    await _studentRepo.DeleteAsync(id);
+        //    return "Success";
+        //}
+
+
 
 
         #endregion

@@ -146,3 +146,10 @@ C:\Users\workstation\source\repos\School_Management_Project\School_Management\ob
 C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\MediatR.dll
 C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\School_Management.staticwebassets.endpoints.json
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\bin\Debug\net8.0\Serilog.dll
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\obj\Debug\net8.0\staticwebassets\msbuild.School_Management.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\workstation\source\repos\School_Management_Project\School_Management\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

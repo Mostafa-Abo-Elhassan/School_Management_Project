@@ -1,9 +1,4 @@
 ﻿using School_Data.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School_Service.Abstract
 {
@@ -13,5 +8,9 @@ namespace School_Service.Abstract
         public Task<Student> GetByIDAsync(int id);
 
         public Task<string> AddAsync(Student student);
+        public Task<string> EditAsync(Student student);
+        public Task<string> removeAsync(Student student);
+        public IQueryable<Student> GetStudentsQuerable();
+        public IQueryable<Student> FilterStudentPaginatedQuerable(string search);
     }
 }
